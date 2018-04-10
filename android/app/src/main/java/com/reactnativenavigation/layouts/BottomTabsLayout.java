@@ -128,6 +128,7 @@ public class BottomTabsLayout extends BaseLayout implements AHBottomNavigation.O
     private void createBottomTabs() {
         bottomTabs = new BottomTabs(getContext());
         bottomTabs.addTabs(params.tabParams, this);
+        bottomTabs.setUseElevation(false);
     }
 
     private void addBottomTabs() {
